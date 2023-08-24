@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from '../styles/Navbar.scss';
+import '../styles/Navbar.scss';
 
 function Navbar() {
   return (
-    <nav className={styles.navbar}>
-      <ul className={styles.navList}>
-        <li className={styles.navItem}><a href="#">Home</a></li>
-        <li className={styles.navItem}><a href="#">About</a></li>
-        <li className={styles.navItem}><a href="#">Services</a></li>
-        <li className={styles.navItem}><a href="#">Contact</a></li>
+    <nav className="navbar">
+      <ul className="navList">
+        <li className="navItem"><a href="#Home" className="navLink">Home</a></li>
+        <li className="navItem"><a href="#About" className="navLink">About</a></li>
+        <li className="navItem"><a href="#Services" className="navLink">Services</a></li>
+        <li className="navItem"><a href="#Contact" className="navLink">Contact</a></li>
       </ul>
     </nav>
   );
