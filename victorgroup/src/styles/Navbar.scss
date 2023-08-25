@@ -29,3 +29,21 @@
 .navItem a:hover {
   color: lightgray;
 }
+
+// Mobile
+@media (max-width: 767px) {
+  .navbar {
+    .inner {
+      padding: 5px 10px;
+    }
+
+    .navItem {
+      margin: 0 0.5rem;
+    }
+
+    .navItem a {
+      font-size: 14px;
+    }
+  }
+}
+
