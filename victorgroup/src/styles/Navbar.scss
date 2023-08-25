@@ -63,3 +63,20 @@
     }
   }
 }
+
+// Dekstop Size
+@media (min-width: 1024px) {
+  .navbar {
+    .inner {
+      padding: 10px 20px;
+    }
+
+    .navItem {
+      margin: 0 1rem;
+    }
+
+    .navItem a {
+      font-size: 18px;
+    }
+  }
+}
