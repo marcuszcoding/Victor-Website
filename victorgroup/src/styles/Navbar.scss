@@ -47,3 +47,19 @@
   }
 }
 
+// Tablet Size
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    .inner {
+      padding: 10px 15px;
+    }
+
+    .navItem {
+      margin: 0 0.8rem;
+    }
+
+    .navItem a {
+      font-size: 16px;
+    }
+  }
+}
