@@ -16,6 +16,9 @@ function Navbar() {
           <li className="navItem"><a href="#Contact" className="navLink">Contact</a></li>
         </ul>
       </div>
+      <div className="start-here">
+        <button cta-button>Start Here</button>
+      </div>
     </nav>
   );
 }
