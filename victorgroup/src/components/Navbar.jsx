@@ -17,7 +17,7 @@ function Navbar() {
         </ul>
       </div>
       <div className="start-here">
-        <button cta-button>Start Here</button>
+        <button className='cta-button'>Start Here</button>
       </div>
     </nav>
   );
