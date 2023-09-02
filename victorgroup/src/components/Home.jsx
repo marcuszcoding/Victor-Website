@@ -32,7 +32,7 @@ const Home = () => {
       <div className="text-container">
         <h1 className="title">Welcome to Victor Group!</h1>
         <p className="description">Paragraph Description!</p>
-        <a href="/shop" className="shop-now-link">Start Here</a>
+        <a href="/start" className="start-now-link">Start Here</a>
       </div>
       <div className="slideshow-container">
         <Fade autoplay={true} duration={4000}>
